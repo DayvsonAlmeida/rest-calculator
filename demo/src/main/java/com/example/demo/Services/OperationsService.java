@@ -37,7 +37,7 @@ public class OperationsService {
     }
   }
 
-  public String potencia(double x, double y) {
+  public String pow(double x, double y) {
     try {
       return String.valueOf(Math.pow(x, y)); 
     } catch (Exception e) {
