@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RestController
 public class OperationController {
     
-    @Autowired
-    OperationService service;
+  @Autowired
+  OperationService service;
 
   @PostMapping("/sum")
   public ResponseEntity sum(@RequestBody EquationDTO eq) {
