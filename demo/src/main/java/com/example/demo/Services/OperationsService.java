@@ -3,7 +3,7 @@ package com.example.demo.Services;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Operations {
+public class OperationsService {
     
 	public String sum(double x, double y) {
     try {        
